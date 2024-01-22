@@ -44,6 +44,7 @@ int Employee::nextID = 444;
 
 int main()
 {
-
+    Employee firstEmployee("shraban");
+    cout << firstEmployee.getName();
     return 0;
 }
